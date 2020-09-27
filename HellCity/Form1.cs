@@ -30,7 +30,7 @@ namespace HellCity
         {
             var kkon = new System.Diagnostics.Process();
             kkon.StartInfo.FileName = "C:\\Program Files\\TeamSpeak 3 Client\\ts3client_win64.exe";
-            kkon.StartInfo.Arguments = "ts3server://ts.hellcity.fi?password=perkele";
+            kkon.StartInfo.Arguments = "ts3server://ts.hellcity.fi?password=salasana";
             kkon.Start();
         }
 
